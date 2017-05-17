@@ -1,0 +1,27 @@
+form {
+	text-align: left;
+	margin: auto;
+	width: 500px;
+}
+
+form label:first-of-type {
+	margin-top: 20px;
+}
+
+form .form-group input,
+form .form-group textarea {
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	outline: none;
+	font-size: 16px;
+}
+
+form .form-group input:focus,
+form .form-group textarea:focus {
+	border: 1px solid #0863d3;
+}
+
+form .form-group input .has-error,
+form .form-group textarea .has-error {
+	border: 1px solid red;
+}
